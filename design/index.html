@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>World Happiness Overview</title>
+</head>
+
+<body>
+    <!-- Using bootstrap for navbar logo "Dashboard" -->
+    <nav class="navbar navbar-expand-lg bg-transparent">
+        <a class="navbar-brand mr-auto" href="index.html" style="color:black">
+            <strong>Overview</strong>
+        </a>
+        <!-- Adding a colapsible button as screen size decreases -->
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar nav ml-auto">
+                <!-- Dropdown menu -->
+
+                <!-- Links -->
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html" style="color:black">Dataset</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="visualizations.html" style="color:black">Visualizations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="analysis.html" style="color:black">Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="report_methodology.html" style="color:black">Poll Methodology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="resources.html" style="color:black">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="project_design.html" style="color:black">Project Design</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Using bootstrap container to align elements -->
+    <div>
+        <div class="container">
+            <div class="row">
+                <!-- Row contains h1 and picture -->
+                <div class="col-md-12 text-center intro-section">
+                    <h1 class="head-style rainbow-text">
+                        <center><strong>World Happiness Overview</strong></center>
+                    </h1>
+                    <br><br><br>
+                    <center><img src="worldhappine.jpg" alt="worldHappinessPic"></center>
+                </div>
+            </div>
+            <!-- Row contains introduction information -->
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <br><br><br>
+                    <h3>Introduction</h3>
+                    <p>
+                        The world we once knew in 2019 has become only a memory and during this past year the world has
+                        experienced grief and uncertainty that has changed us all. The World Happiness Data provides us
+                        with a glimpse of the world’s resilience during one of the most difficult times in this century.
+                        Which countries have been able to find a silver lining during this turbulent global pandemic?
+                        Our team has created several visualizations of the World Happiness Data to help answer this
+                        question and to give an understanding of some factors that contribute to a
+                        country’s happiness.
+                    </p>
+                    <br><br><br>
+                    <h3>The World Happiness Data</h3>
+                    <p>
+                        The World Happiness Report utilizes information from the Gallup World survey. The Gallup World
+                        Survey uses telephone and face-to-face interviewing in randomly selected households all
+                        across the globe. The typical survey size is 1,000 individuals.
+                        Each index is calculated by asking participants a series of yes or no questions which then
+                        receive a numerical value. There are a total of nineteen indexes, seven of which are used to
+                        calculate a Happiness Score which we will utilize to interpret the happiness of countries in
+                        2019 and 2020.
+                    </p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+<br><br>
+</body>
+
+</html>
